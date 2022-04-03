@@ -1,4 +1,6 @@
+
 # Configure Grafana
+# ***IMPORTANT: Please Use Grafana v6.5 or else you will experience unexpected behavior. Mercury Telemetry has not been updated for the latest version of Grafana yet. 
 ![Grafana Dashboard](imgs/grafana_dashboard.png)
 > Fig 0) Grafana dashboard for an Event named `Test Event`. Contains 3 sensor panels
 >: gps, temperature, and speed.

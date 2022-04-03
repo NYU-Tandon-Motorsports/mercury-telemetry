@@ -261,10 +261,10 @@ class Grafana:
         #   'version': 1
         # }
 
-        id = post_output.get("id")  # Set to None if post_output has no "id"
+        id_ = post_output.get("id")  # Set to None if post_output has no "id"
 
         # If a dashboard was created, return the metadata
-        if id:
+        if id_:
             return post_output
         # If a dashboard wasn't created, inspect the error message and throw
         # a ValueError
@@ -1031,7 +1031,7 @@ class Grafana:
 
         try:
             # Extract attributes from existing dashboard
-            id = dashboard_info["dashboard"]["id"]
+            id_ = dashboard_info["dashboard"]["id"]
             uid = dashboard_info["dashboard"]["uid"]
             title = title if title else dashboard_info["dashboard"]["title"]
             schema_version = dashboard_info["dashboard"]["schemaVersion"]
@@ -1049,7 +1049,7 @@ class Grafana:
         # Prepare updated_dashboard object
         updated_dashboard = {
             "dashboard": {
-                "id": id,
+                "id": id_,
                 "uid": uid,
                 "title": title,
                 "version": version,
