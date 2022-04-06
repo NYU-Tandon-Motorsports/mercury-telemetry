@@ -81,7 +81,6 @@ class MeasurementView(APIView):
           "date" : 2020-03-11T20:20+01:00
         }
         """
-
         active_event = AGActiveEvent.objects.first()
         if not active_event:
             record.save_error(

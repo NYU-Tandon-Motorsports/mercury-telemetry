@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 19.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   width="168px"
+   height="63.6px"
+   viewBox="0 0 168 63.6"
+   style="enable-background:new 0 0 168 63.6;"
+   xml:space="preserve"
+   sodipodi:docname="grafana_typelogo.svg"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"><metadata
+   id="metadata47"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title /></cc:Work></rdf:RDF></metadata><defs
+   id="defs45"><clipPath
+     id="clip0"><rect
+       x="534"
+       y="2158"
+       width="2565"
+       height="463"
+       id="rect62" /></clipPath></defs><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1908"
+   inkscape:window-height="975"
+   id="namedview43"
+   showgrid="false"
+   inkscape:zoom="1.4142136"
+   inkscape:cx="224.83366"
+   inkscape:cy="-100.09653"
+   inkscape:window-x="0"
+   inkscape:window-y="0"
+   inkscape:window-maximized="0"
+   inkscape:current-layer="Layer_1" />
+<style
+   type="text/css"
+   id="style2">
+	.st0{fill:#E6E7E8;}
+</style>
+
+
+
+<g
+   clip-path="url(#clip0)"
+   transform="matrix(0.18087207,0,0,0.18087207,-259.36537,-396.77633)"
+   id="g69"><g
+   aria-label="Telemetry"
+   transform="translate(1445.72,2443)"
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:220px;font-family:'Arciform Sans';-inkscape-font-specification:'Arciform Sans Bold';fill:#f2f2f2"
+   id="text67"><path
+     d="m -0.22,-143.22 c 0,5.94 4.84,10.78 11,10.78 H 44 v 121.66 c 0,6.16 4.84,11 11,11 5.94,0 10.78,-4.84 10.78,-11 v -121.66 h 33.44 c 5.94,0 10.78,-4.84 10.78,-10.78 0,-6.16 -4.84,-11 -10.78,-11 H 10.78 c -6.16,0 -11,4.84 -11,11 z"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:220px;font-family:'Arciform Sans';-inkscape-font-specification:'Arciform Sans Bold';fill:#f2f2f2"
+     id="path30" /><path
+     d="m 154.21963,-110.44 c -30.58,0 -55.219996,24.64 -55.219996,55.22 0,30.36 24.639996,55.22 55.219996,55.22 8.14,0 19.36,0.22 33.88,-9.46 5.06,-3.3 7.92,-9.02 5.28,-14.52 -2.64,-5.28 -9.46,-8.36 -14.52,-5.06 -10.56,6.82 -19.58,7.26 -24.64,7.26 -14.74,0 -27.06,-9.46 -31.68,-22.66 h 75.9 c 6.16,0 11,-4.84 11,-10.78 0,-35.86 -28.6,-55.22 -55.22,-55.22 z m 0,21.78 c 13.2,0 27.28,7.04 31.9,22.44 h -63.58 c 4.62,-12.98 16.94,-22.44 31.68,-22.44 z"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:220px;font-family:'Arciform Sans';-inkscape-font-specification:'Arciform Sans Bold';fill:#f2f2f2"
+     id="path32" /><path
+     d="m 233.85925,0.22 c 5.94,0 10.78,-4.84 10.78,-11 V -154 c 0,-5.94 -4.84,-10.78 -10.78,-10.78 -6.16,0 -11,4.84 -11,10.78 v 143.22 c 0,6.16 4.84,11 11,11 z"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:220px;font-family:'Arciform Sans';-inkscape-font-specification:'Arciform Sans Bold';fill:#f2f2f2"
+     id="path34" /><path
+     d="m 313.05883,-110.44 c -30.58,0 -55.22,24.64 -55.22,55.22 0,30.36 24.64,55.22 55.22,55.22 8.14,0 19.36,0.22 33.88,-9.46 5.06,-3.3 7.92,-9.02 5.28,-14.52 -2.64,-5.28 -9.46,-8.36 -14.52,-5.06 -10.56,6.82 -19.58,7.26 -24.64,7.26 -14.74,0 -27.06,-9.46 -31.68,-22.66 h 75.9 c 6.16,0 11,-4.84 11,-10.78 0,-35.86 -28.6,-55.22 -55.22,-55.22 z m 0,21.78 c 13.2,0 27.28,7.04 31.9,22.44 h -63.58 c 4.62,-12.98 16.94,-22.44 31.68,-22.44 z"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:220px;font-family:'Arciform Sans';-inkscape-font-specification:'Arciform Sans Bold';fill:#f2f2f2"
+     id="path36" /><path
+     d="m 536.57842,-66 c 0,-24.2 -19.8,-44 -44.22,-44 -13.2,0 -25.08,5.72 -33.22,15.18 -8.14,-9.46 -20.02,-15.18 -33.22,-15.18 -24.42,0 -44.22,19.8 -44.22,44 v 55.44 c 0,6.16 4.84,11 11,11 5.94,0 10.78,-4.84 10.78,-11 V -66 c 0,-12.32 10.12,-22.22 22.44,-22.22 12.32,0 22.22,9.9 22.22,22.22 v 55.44 c 0,6.16 5.06,11 11,11 5.94,0 10.78,-4.84 10.78,-11 V -66 c 0,-12.32 10.12,-22.22 22.44,-22.22 12.32,0 22.44,9.9 22.44,22.22 0,0.44 0,0.66 0,0.88 0,0.44 0,0.66 0,1.1 v 53.46 c 0,6.16 4.84,11 10.78,11 5.94,0 11,-4.84 11,-11 v -53.46 c 0,-0.44 0,-0.66 -0.22,-1.1 0.22,-0.22 0.22,-0.44 0.22,-0.88 z"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:220px;font-family:'Arciform Sans';-inkscape-font-specification:'Arciform Sans Bold';fill:#f2f2f2"
+     id="path38" /><path
+     d="m 604.77804,-110.44 c -30.58,0 -55.22,24.64 -55.22,55.22 0,30.36 24.64,55.22 55.22,55.22 8.14,0 19.36,0.22 33.88,-9.46 5.06,-3.3 7.92,-9.02 5.28,-14.52 -2.64,-5.28 -9.46,-8.36 -14.52,-5.06 -10.56,6.82 -19.58,7.26 -24.64,7.26 -14.74,0 -27.06,-9.46 -31.68,-22.66 h 75.9 c 6.16,0 11,-4.84 11,-10.78 0,-35.86 -28.6,-55.22 -55.22,-55.22 z m 0,21.78 c 13.2,0 27.28,7.04 31.9,22.44 h -63.58 c 4.62,-12.98 16.94,-22.44 31.68,-22.44 z"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:220px;font-family:'Arciform Sans';-inkscape-font-specification:'Arciform Sans Bold';fill:#f2f2f2"
+     id="path40" /><path
+     d="m 724.45772,-110.22 h -15.62 v -44 c 0,-5.94 -4.84,-10.78 -11,-10.78 -5.94,0 -10.78,4.84 -10.78,10.78 v 44 h -15.84 c -5.94,0 -10.78,4.84 -10.78,10.78 0,5.94 4.84,11 10.78,11 h 15.84 v 77.66 c 0,5.94 4.84,11 10.78,11 6.16,0 11,-5.06 11,-11 v -77.66 h 15.62 c 6.16,0 11,-5.06 11,-11 0,-5.94 -4.84,-10.78 -11,-10.78 z"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:220px;font-family:'Arciform Sans';-inkscape-font-specification:'Arciform Sans Bold';fill:#f2f2f2"
+     id="path42" /><path
+     d="m 789.79699,-110.22 c -30.36,0 -55.22,24.64 -55.22,55.22 v 44.22 c 0,5.94 4.84,11 11,11 5.94,0 10.78,-5.06 10.78,-11 V -55 c 0,-18.48 14.96,-33.44 33.44,-33.44 6.16,0 11,-5.06 11,-11 0,-5.94 -4.84,-10.78 -11,-10.78 z"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:220px;font-family:'Arciform Sans';-inkscape-font-specification:'Arciform Sans Bold';fill:#f2f2f2"
+     id="path44" /><path
+     d="m 891.43627,-109.56 c -5.94,0 -10.78,4.84 -10.78,10.78 v 54.56 c 0,12.54 -10.12,22.66 -22.66,22.66 -12.32,0 -22.66,-10.12 -22.66,-22.66 v -54.56 c 0,-5.94 -4.84,-10.78 -10.78,-10.78 -5.94,0 -10.78,4.84 -10.78,10.78 V -44 c 0,0 0,0 0,0.22 0.22,24.2 20.02,43.78 44.22,43.78 8.36,0 16.06,-2.2 22.66,-6.16 V 9.68 c 0,12.98 -10.56,23.54 -23.76,23.54 -9.02,0 -17.16,-5.06 -21.34,-13.2 -2.42,-5.28 -9.02,-7.7 -14.3,-5.06 -5.5,2.64 -7.7,9.24 -5.06,14.52 7.7,15.62 23.32,25.52 40.7,25.52 25.08,0 45.54,-20.46 45.54,-45.32 V -98.78 c 0,-5.94 -4.84,-10.78 -11,-10.78 z"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:220px;font-family:'Arciform Sans';-inkscape-font-specification:'Arciform Sans Bold';fill:#f2f2f2"
+     id="path46" /></g>
+</g></svg>
