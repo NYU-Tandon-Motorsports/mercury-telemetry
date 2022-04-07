@@ -25,6 +25,7 @@ DEBUG = False
 ALLOWED_HOSTS = [
     "nyu-mercury.herokuapp.com",
     "nyu-mercury-prod.herokuapp.com",
+    "nyu-baja-telemetry.herokuapp.com"
     "127.0.0.1",
     "localhost",
 ]
@@ -117,8 +118,16 @@ elif "DB" in os.environ and os.environ["DB"] == "postgres":  # pragma: nocover
         }
     }
 else:  # pragma: no cover
-    DATABASES = {"default": dj_database_url.config(conn_max_age=600)}
-
+    DATABASES = { #{"default": dj_database_url.config(conn_max_age=600)}
+        "default": {
+            "ENGINE": "django.db.backends.postgresql_psycopg2",
+            "NAME": "mercury",
+            "USER": os.environ.get("DB_USER", "postgres"),
+            "PASSWORD": os.environ.get("DB_PASSWORD", ""),
+            "HOST": os.environ.get("DB_HOST", "localhost"),
+            "PORT": os.environ.get("DB_PORT", "5432"),
+        }
+    }
 
 # Password validation
 # https://docs.djangoproject.com/en/dev/ref/settings/#auth-password-validators
