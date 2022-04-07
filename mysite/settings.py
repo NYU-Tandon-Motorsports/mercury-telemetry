@@ -118,11 +118,16 @@ elif "DB" in os.environ and os.environ["DB"] == "postgres":  # pragma: nocover
         }
     }
 else:  # pragma: no cover   #heroku push
-    DATABASES = {"default": dj_database_url.config(conn_max_age=600)}
-    DATABASES["default"]["ENGINE"] = "django.db.backends.postgresql_psycopg2"
-    DATABASES["default"]["NAME"] = "mercury"
-    DATABASES["default"]["USER"] = "postgres"
-    DATABASES["default"]["PASSWORD"] = ""
+        DATABASES = {
+        "default": {
+            "ENGINE": "django.db.backends.postgresql_psycopg2",
+            "NAME": "d9op4rk94phr3t",
+            "USER": "ruavisomrkyuba",
+            "PASSWORD": "c0cc465cf8bb00d9f9916937807d9cdff791ef3374b88a194f54d7c39b05218d",
+            "HOST": "ec2-52-73-155-171.compute-1.amazonaws.com",
+            "PORT": "5432",
+        }
+    }
 
 # Password validation
 # https://docs.djangoproject.com/en/dev/ref/settings/#auth-password-validators
