@@ -117,13 +117,13 @@ elif "DB" in os.environ and os.environ["DB"] == "postgres":  # pragma: nocover
             "PORT": os.environ.get("DB_PORT", "5432"),
         }
     }
-else:  # pragma: no cover
+else:  # pragma: no cover   #heroku push
     DATABASES = { #{"default": dj_database_url.config(conn_max_age=600)}
         "default": {
             "ENGINE": "django.db.backends.postgresql_psycopg2",
             "NAME": "mercury",
             "USER": os.environ.get("DB_USER", "postgres"),
-            "PASSWORD": os.environ.get("DB_PASSWORD", ""),
+            "PASSWORD": os.environ.get("DB_PASSWORD", "password"),
             "HOST": os.environ.get("DB_HOST", "localhost"),
             "PORT": os.environ.get("DB_PORT", "5432"),
         }
