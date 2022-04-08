@@ -118,6 +118,7 @@ elif "DB" in os.environ and os.environ["DB"] == "postgres":  # pragma: nocover
         }
     }
 else:  # pragma: no cover   #heroku push
+        DEBUG = True
         DATABASES = {
         "default": {
             "ENGINE": "django.db.backends.postgresql_psycopg2",
