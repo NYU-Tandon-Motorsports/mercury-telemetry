@@ -302,6 +302,14 @@ function generatePlot(seriesStr, x, t, fieldArr, s, e)
         end
         xlim([s e]);
         legend(fieldArr);
+        x_matrix = transpose(x(:, sortIndex));
+        t_matrix = transpose(sortedT);
+        x_table = array2table(x_matrix);
+        t_table = cell2table(cellstr(t_matrix));
+        x_table.Properties.VariableNames = cellstr(fieldArr);
+        uif = uifigure;
+        uit = uitable(uif, 'Data',[t_table,x_table]);
+        writetable([t_table,x_table],strcat(seriesStr{1},".xlsx"),"WriteMode","append","AutoFitWidth",false);
     end
     return;
 end
