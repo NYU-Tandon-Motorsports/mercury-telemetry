@@ -288,24 +288,35 @@ function generatePlot(seriesStr, x, t, fieldArr, s, e)
     if ~strcmp(seriesStr, "log")
         title(seriesStr);
         xlabel("Timestamp");
+        si = 0;
+        ei = 0;
         for c = 1:x_size(2)
             if(sortedT(c) >= s)
                 s = sortedT(c);
-                break;
+                si = c;
+                break;i
             end
         end
         for c = x_size(2):-1:1
             if(sortedT(c) <= e)
                 e = sortedT(c);
+                ei = c;
                 break;
             end
         end
         xlim([s e]);
         legend(fieldArr);
-        x_matrix = transpose(x(:, sortIndex));
-        t_matrix = transpose(sortedT);
+        x_matrix = x(:, sortIndex);
+        x_matrix = transpose(x_matrix(:,si:ei));
+        t_matrix = transpose(sortedT(si:ei));
         x_table = array2table(x_matrix);
-        t_table = cell2table(cellstr(t_matrix));
+        t_cell = cell(size(t_matrix));
+        t_size = size(t_matrix);
+        for i = 1:(t_size(1))
+            %t_matrix(i,1)
+            t_cell{i,1} = datestr(t_matrix(i,1), 'mmmm dd, yyyy HH:MM:SS.FFF');
+        end
+        t_table = cell2table(t_cell);
         x_table.Properties.VariableNames = cellstr(fieldArr);
         uif = uifigure;
         uit = uitable(uif, 'Data',[t_table,x_table]);
